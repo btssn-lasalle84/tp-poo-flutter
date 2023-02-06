@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "TestCompte",
+      "setup": "cd applicationcompte && flutter config --enable-linux-desktop",
+      "run": "cd applicationcompte && flutter test test/TestCompte.dart",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "TestGui",
+      "setup": "cd applicationcompte && flutter config --enable-linux-desktop",
+      "run": "cd applicationcompte && flutter test test/TestWidgets.dart",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    }
+  ]
+}
