@@ -141,7 +141,7 @@ Une application Flutter est organisée en plusieurs répertoires :
 - `web` : Dossier du projet web
 - `test` : Le code des tests unitaires
 
-Le fichier `pubspec.yaml` contient les informations de base de l’application (nom, description, versio, ...), les ressources (`assets`) comme les images, le SDK et les dépendances vers les packages.
+Le fichier `pubspec.yaml` contient les informations de base de l’application (nom, description, version, ...), les ressources (`assets`) comme les images, le SDK et les dépendances vers les packages.
 
 ```sh
 $ cd hello
@@ -194,12 +194,12 @@ Fournir la classe `Compte` dans `app/src/main/java/com/lasalle/applicationcompte
 
 Réaliser une application Android exploitant le concept de `Compte` :
 
-![](images/screenshot-compte.png)
+![](images/screenshot-applicationcompte.png)
 
 > Il est possible d'utiliser https://flutterstudio.app/ pour établir le squelette de la GUI.
 
 ```sh
-$ flutter create applicationcompte
+$ flutter create applicationcompte --platforms=linux
 Creating project applicationcompte...
 Running "flutter pub get" in applicationcompte...                1 678ms
 Wrote 101 files.
