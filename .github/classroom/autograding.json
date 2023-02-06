@@ -3,7 +3,7 @@
     {
       "name": "TestCompte",
       "setup": "cd applicationcompte && flutter config --enable-linux-desktop",
-      "run": "cd applicationcompte && flutter test test/TestCompte.dart",
+      "run": "cd applicationcompte && export HOME=/home/runner/work/tp-poo-flutter; flutter test test/TestCompte.dart",
       "input": "",
       "output": "",
       "comparison": "included",
@@ -13,7 +13,7 @@
     {
       "name": "TestGui",
       "setup": "cd applicationcompte && flutter config --enable-linux-desktop",
-      "run": "cd applicationcompte && flutter test test/TestWidgets.dart",
+      "run": "cd applicationcompte && export HOME=/home/runner/work/tp-poo-flutter; flutter test test/TestWidgets.dart",
       "input": "",
       "output": "",
       "comparison": "included",
