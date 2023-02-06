@@ -185,12 +185,12 @@ Un `Compte` doit posséder un titulaire, un solde et une devise (EUR, USD, ...).
 
 On pourra :
 
-- `crediter()` d'un `montant` passé en argument le solde du `Compte`
-- `debiter()` d'un `montant` passé en argument le solde du `Compte`
+- `crediter()` d'un `montant`, passé en argument, le solde du `Compte`
+- `debiter()` d'un `montant`, passé en argument, le solde du `Compte`
 
 ![](images/classe-compte.png)
 
-Fournir la classe `Compte` dans `app/src/main/java/com/lasalle/applicationcompte/CompteBancaire.java`.
+Fournir la classe `Compte` dans `applicationcompte/lib/Compte.dart`.
 
 Réaliser une application Flutter exploitant le concept de `Compte` :
 
