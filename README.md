@@ -103,6 +103,8 @@ Engine • revision e355993572
 Tools • Dart 2.17.0 (build 2.17.0-69.2.beta) • DevTools 2.10.0-dev.1
 ```
 
+> :eyes: Il faudrait mettre à jour la version de Flutter !
+
 Au final, on obtient les plateformes suivantes sur un poste GNU/Linux Ubuntu 20.04 :
 
 ```sh
