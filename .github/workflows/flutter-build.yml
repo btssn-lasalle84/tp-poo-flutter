@@ -38,6 +38,7 @@ jobs:
         run: |
           label="flutter-build"
           echo "##[set-output name=label;]${label}"
+          export HOME=/home/runner/work/tp-poo-flutter
           cd applicationcompte && flutter config --enable-linux-desktop && flutter build linux
           res=$?
           if [ $res -eq 0 ]
