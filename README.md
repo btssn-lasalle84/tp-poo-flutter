@@ -192,7 +192,7 @@ On pourra :
 
 Fournir la classe `Compte` dans `app/src/main/java/com/lasalle/applicationcompte/CompteBancaire.java`.
 
-Réaliser une application Android exploitant le concept de `Compte` :
+Réaliser une application Flutter exploitant le concept de `Compte` :
 
 ![](images/screenshot-applicationcompte.png)
 
